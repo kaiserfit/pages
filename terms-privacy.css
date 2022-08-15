@@ -1,0 +1,72 @@
+* {
+    font-family: 'Open Sans', sans-serif; 
+      
+    }
+    body {
+        background-image: url("woman.webp");
+        background-color: #161a25;
+        background-blend-mode: overlay;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top center;
+        background-attachment: fixed;
+    }
+    .mc2 {
+        background-color: #000;
+        
+    }
+
+    .mc2 h1 {
+        font-weight: 800;
+        font-family: 'Racing Sans One', cursive;
+      
+      color: #fff;
+    }
+
+    p {
+        font-size: 16px;
+        font-weight: 300;
+        color: #e5e4e2;
+        margin-bottom: 50px;
+    }
+    .emphasis {
+        color: #9c2c66;
+    }
+   h1, h2, h3, h4 {
+    color: #fff;
+    font-weight: 400;
+   }
+
+    .mc h1 {
+        
+        font-weight: 800;
+        font-family: 'Racing Sans One', cursive;
+      text-align: center;
+      color: #fff;
+    }
+
+    ul li {
+        font-size: 14px;
+        color: #e5e4e2;
+        margin-top: 20px;
+    }
+
+    ol li {
+        font-size: 14px;
+        color: #e5e4e2;
+        margin-top: 20px;
+    }
+
+    .footer {
+
+        font-size: 12px;
+        color: #fff;
+    }
+
+    @media (min-width: 320px)and (max-width: 600px) {
+        .mc2 h1 {
+
+            text-align: center;
+        }
+
+    }
